@@ -46,5 +46,9 @@ module.exports = {
             analyzerMode: 'static',
         })
     ],
-    mode: 'development'
+    mode: 'development',
+    devServer: {
+        static: './',
+        open: true,
+    }
 };
